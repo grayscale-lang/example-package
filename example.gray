@@ -1,0 +1,20 @@
+  // Package:     example
+  // Version:     0.1.0
+  // Author:      GrayThePigeon
+  // GitHub:      github.com/GrayThePigeon
+  // Email:       graypigeon@example.com
+  // License:     MIT
+  // Description: A reference package showing correct structure
+
+  #doc("Adds two integers and returns the result.")
+  do add(a int, b int) -> int {
+      return a + b
+  }
+
+  #doc("Returns the greater of two integers.")
+  do max(a int, b int) -> int {
+      if a > b {
+          return a
+      }
+      return b
+  }
